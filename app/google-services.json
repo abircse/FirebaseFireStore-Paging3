@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338298179377",
+    "project_id": "firestorepagination-ec471",
+    "storage_bucket": "firestorepagination-ec471.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338298179377:android:e9a0b658dccbd018836a10",
+        "android_client_info": {
+          "package_name": "com.coxtunes.firestorepaging3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338298179377-bgpsdgpesipiibqhqmo8g29658gtlq54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCW7H-SLp-EV9ajRbaszYzuo05wZ8izd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338298179377-bgpsdgpesipiibqhqmo8g29658gtlq54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
