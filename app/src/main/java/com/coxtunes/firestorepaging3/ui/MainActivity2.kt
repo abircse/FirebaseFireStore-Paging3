@@ -55,7 +55,7 @@ class MainActivity2 : AppCompatActivity() {
                 }
                 else if (!recyclerView.canScrollVertically(-1) && dy < 0)
                 {
-                    binding.buttonPaging.visibility = View.GONE
+                    binding.buttonPaging.visibility = View.INVISIBLE
                 }
 
             }
@@ -70,9 +70,8 @@ class MainActivity2 : AppCompatActivity() {
             .await().map { data ->
                 val productData = data.toObject(Product::class.java)
                 productList.add(productData)
-                binding.buttonPaging.visibility = View.GONE
+                binding.buttonPaging.visibility = View.INVISIBLE
             }
-
         productAdapter.addProducts(productList)
     }
 }
